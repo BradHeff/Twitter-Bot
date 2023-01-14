@@ -1,4 +1,3 @@
-from typing import List, Optional
 import json
 import os
 import sys
@@ -120,16 +119,15 @@ class TweetBot():
         destination_path,
         prefix,
     ):
-        text = self.generate_text(checkpoint_dir, length, temperature, destination_path, prefix, False)
-        self.finetune("355M", "./output.csv", checkpoint_dir, 3000, length, None)
-
+        text = self.generate_text(checkpoint_dir, length, temperature, destination_path, prefix, False)        
+        print(text)
     
     def post_tweet(self, checkpoint_dir, twitter_credential_path):
         self.tweet(checkpoint_dir, twitter_credential_path, 1024, 0.8, None, "\n==========\n")
 
 
 if __name__ == "__main__":
+    # TweetBot().finetune("355M", "./output.csv", "checkpoint", 3000, 1024, None)
     #TweetBot().post_tweet("checkpoint","twitter.json")
-    TweetBot().finetune("355M", "./output.csv", "checkpoint", 3000, 1024, None)
 
-    #TweetBot().generate("checkpoint", 1023, 1.0, None, None)
+    TweetBot().generate("checkpoint", 1023, 1.0, None, None)
