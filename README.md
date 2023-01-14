@@ -34,10 +34,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Horizon Account Verifier</h3>
+<h3 align="center">Twitter Bot - Python</h3>
 
   <p align="center">
-    An Account Verification App, to make sure an account exists on the network
+    A Twitter Bot built with Python utilizing GPT2
     <br />
     <a href="https://github.com/BradHeff/Twitter-Bot"><strong>Explore the docs »</strong></a>
     <br />
