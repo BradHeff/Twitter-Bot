@@ -27,7 +27,7 @@ class TweetBot():
         destination_path,
         prefix,
         return_as_list,
-    ) -> List:
+    ):
         sess = gpt2.start_tf_sess()
         gpt2.load_gpt2(sess, checkpoint_dir=checkpoint_dir)
         text = gpt2.generate(
@@ -89,7 +89,7 @@ class TweetBot():
         num_steps,
         sample_length,
         save_every,
-    ) -> None:
+    ):
 
         # Download the model if it is not present
         if not os.path.isdir(os.path.join("models", model_name)):
@@ -119,9 +119,9 @@ class TweetBot():
         temperature,
         destination_path,
         prefix,
-    ) -> None:
+    ):
         text = self.generate_text(checkpoint_dir, length, temperature, destination_path, prefix, False)
-        self.finetune("355M", "./data/mtg_combined.txt", checkpoint_dir, 3000, length, None)
+        self.finetune("355M", "./output.csv", checkpoint_dir, 3000, length, None)
 
     
     def post_tweet(self, checkpoint_dir, twitter_credential_path):
@@ -130,6 +130,6 @@ class TweetBot():
 
 if __name__ == "__main__":
     #TweetBot().post_tweet("checkpoint","twitter.json")
-    TweetBot().finetune("355M", "./Data/world_proverbs_clean.txt", "checkpoint", 3000, 1024, None)
+    TweetBot().finetune("355M", "./output.csv", "checkpoint", 3000, 1024, None)
 
     #TweetBot().generate("checkpoint", 1023, 1.0, None, None)

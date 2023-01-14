@@ -1,4 +1,4 @@
-click
 gpt_2_simple
 numpy
 tweepy
+git+https://github.com/twintproject/twint.git@origin/master#egg=twint
