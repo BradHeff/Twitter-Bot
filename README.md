@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/BradHeff/Horizon-Account-Verifier">
+  <a href="https://github.com/BradHeff/Twitter-Bot">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -39,12 +39,12 @@
   <p align="center">
     An Account Verification App, to make sure an account exists on the network
     <br />
-    <a href="https://github.com/BradHeff/Horizon-Account-Verifier"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/BradHeff/Twitter-Bot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/bradheff/Horizon-Account-Verifier/issues">Report Bug</a>
+    <a href="https://github.com/bradheff/Twitter-Bot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/bradheff/Horizon-Account-Verifier/issues">Request Feature</a>
+    <a href="https://github.com/bradheff/Twitter-Bot/issues">Request Feature</a>
   </p>
 </div>
 
@@ -82,13 +82,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://www.horizon.sa.edu.au)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://www.horizon.sa.edu.au)-->
 
-This app will list all the year levels of the students from Active Directory, upon selecting a yerar level it will populate the second Combobox with the student display names.<br/>
+This repository holds the code for creating a simple twitter bot using GPT2. All current code is located in deepproverbs.py.<br/>
 
 
 ### TODO
-Add search field and button to query AD and return true or false if user exists.
+Build the model and push to huggingface
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,6 +97,7 @@ Add search field and button to query AD and return true or false if user exists.
 ### Built With
 
 * [![Python][Python3]][python-url]
+* [![GPT2][GPT2]][GPT2-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +121,7 @@ Software needed for this application to work
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/bradheff/Horizon-Account-Verifier.git
+   git clone https://github.com/bradheff/Twitter-Bot.git
    ```
 
 
@@ -133,7 +134,7 @@ Software needed for this application to work
 
 Nothing to show as of yet.
 
-_For more examples, please refer to the [Documentation](https://github.com/BradHeff/Horizon-Account-Verifier/wiki)_
+_For more examples, please refer to the [Documentation](https://github.com/BradHeff/Twitter-Bot/wiki)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +148,7 @@ _For more examples, please refer to the [Documentation](https://github.com/BradH
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/bradheff/Horizon-Account-Verifier/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/bradheff/Twitter-Bot/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,7 +186,7 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 Your Name - [@bradheffernan](https://twitter.com/bradheffernan) - brad.heffernan83@outlook.com
 
-Project Link: [https://github.com/bradheff/Horizon-Account-Verifier](https://github.com/bradheff/Horizon-Account-Verifier)
+Project Link: [https://github.com/bradheff/Twitter-Bot](https://github.com/bradheff/Twitter-Bot)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,20 +203,22 @@ Project Link: [https://github.com/bradheff/Horizon-Account-Verifier](https://git
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/bradheff/Horizon-Account-Verifier.svg?style=for-the-badge
-[contributors-url]: https://github.com/bradheff/Horizon-Account-Verifier/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/bradheff/Horizon-Account-Verifier.svg?style=for-the-badge
-[forks-url]: https://github.com/bradheff/Horizon-Account-Verifier/network/members
-[stars-shield]: https://img.shields.io/github/stars/bradheff/Horizon-Account-Verifier.svg?style=for-the-badge
-[stars-url]: https://github.com/bradheff/Horizon-Account-Verifier/stargazers
-[issues-shield]: https://img.shields.io/github/issues/bradheff/Horizon-Account-Verifier.svg?style=for-the-badge
-[issues-url]: https://github.com/bradheff/Horizon-Account-Verifier/issues
-[license-shield]: https://img.shields.io/github/license/bradheff/Horizon-Account-Verifier?style=for-the-badge
-[license-url]: https://github.com/BradHeff/Horizon-Account-Verifier/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/bradheff/Twitter-Bot.svg?style=for-the-badge
+[contributors-url]: https://github.com/bradheff/Twitter-Bot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/bradheff/Twitter-Bot.svg?style=for-the-badge
+[forks-url]: https://github.com/bradheff/Twitter-Bot/network/members
+[stars-shield]: https://img.shields.io/github/stars/bradheff/Twitter-Bot.svg?style=for-the-badge
+[stars-url]: https://github.com/bradheff/Twitter-Bot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/bradheff/Twitter-Bot.svg?style=for-the-badge
+[issues-url]: https://github.com/bradheff/Twitter-Bot/issues
+[license-shield]: https://img.shields.io/github/license/bradheff/Twitter-Bot?style=for-the-badge
+[license-url]: https://github.com/BradHeff/Twitter-Bot/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/brad-heffernan83/
 
 [product-screenshot]: images/screenshot1.png
 
 [Python3]: https://img.shields.io/badge/Python-35495E?style=for-the-badge&logo=python&logoColor=61DAFB
+[GPT2]: https://img.shields.io/badge/GPT2-FFA500?style=for-the-badge&logo=openai&logoColor=000000
+[GPT2-url]: https://openai.com/
 [python-url]: https://www.python.org/
