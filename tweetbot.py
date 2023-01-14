@@ -127,7 +127,7 @@ class TweetBot():
 
 
 if __name__ == "__main__":
-    # TweetBot().finetune("355M", "./output.csv", "checkpoint", 3000, 1024, None)
+    TweetBot().finetune("355M", "./output.csv", "checkpoint", 3000, 1024, None)
     #TweetBot().post_tweet("checkpoint","twitter.json")
 
-    TweetBot().generate("checkpoint", 1023, 1.0, None, None)
+    # TweetBot().generate("checkpoint", 1023, 1.0, None, None)
