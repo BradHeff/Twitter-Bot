@@ -208,7 +208,8 @@ Project Link: [https://github.com/bradheff/Twitter-Bot](https://github.com/bradh
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* [nbertagnolli](https://github.com/nbertagnolli/DeepProverbs)
+* * Cloned and altered from his/her github `DeepProverbs` Thanks for the starter kit.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
