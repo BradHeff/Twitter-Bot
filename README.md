@@ -124,6 +124,19 @@ Software needed for this application to work
    git clone https://github.com/bradheff/Twitter-Bot.git
    ```
 
+### Setting Up Environment
+
+The associated Makefile should make playing with the code simple. 
+*To start:*
+* run either a jupyter or terminal environment with `make run-jupyter` or `make run`
+
+That's all you need to start playing around with the code.
+
+If you've trained a model and want to tweet something you can run 
+```
+make CHECKPOINT_DIR="deepproverbs" TWITTER_CREDS="twitter.json" tweet
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
