@@ -1,0 +1,4 @@
+click
+gpt_2_simple
+numpy
+tweepy
